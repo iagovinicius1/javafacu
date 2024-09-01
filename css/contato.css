@@ -1,0 +1,71 @@
+input {
+    padding: 5px 0px;
+    margin: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  label {
+    padding: 5px 0px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .conteiner-contato,
+  informação-contato {
+    display: flex;
+    color: rgb(224, 224, 224);
+    font-size: 50px;
+    justify-content: center;
+    background-color: rgb(43, 9, 9);
+    width: auto;
+    height: 100px;
+  }
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    display: block;
+  
+    width: 60px;
+    margin-top: 50px;
+  }
+  body {
+    color: black;
+  }
+  .p {
+    color: aliceblue;
+  }
+  .sub-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+      margin: 10px;
+    }
+    .imagem_duvida {
+        text-align: center;
+
+    }
+    .link {
+text-decoration: none;
+padding: 0px 16px;
+border: solid rgb(146, 2, 2) 2px;
+
+    }
+    footer {
+grid-column-start: 1px;
+grid-column-end: 12px;
+text-align: center;
+color: rgb(0, 0, 0);
+width: auto;
+height: auto;
+    }

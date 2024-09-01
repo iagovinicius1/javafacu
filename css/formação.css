@@ -1,0 +1,46 @@
+.sub-menu {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    padding: 5px 0px;
+    margin: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  label {
+    padding: 5px 2px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conteiner-contato,
+  informação-contato {
+    display: flex;
+    color: rgb(224, 224, 224);
+    font-size: 50px;
+    justify-content: center;
+    background-color: rgb(43, 9, 9);
+    width: auto;
+    height: 100px;}
+
+    .menu {
+        margin: 10px;}
+
+        .header {
+            background-color: rgb(43, 9, 9);
+          grid-column-start: 1;
+          grid: column end 12px; ;
+        }          
+        .conteudo {
+          text-align: center;
+
+
+        }
